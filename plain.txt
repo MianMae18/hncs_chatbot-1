@@ -1,0 +1,19 @@
+hncs-chatbot/
+├── app/                    # Next.js 14+ App Router
+│   ├── api/
+│   │   └── chat/
+│   │       └── route.ts    # API endpoint
+│   ├── page.tsx            # Main chat page
+│   ├── layout.tsx
+│   └── globals.css
+├── components/
+│   ├── Chat.tsx
+│   ├── Welcome.tsx
+│   └── MessageBubble.tsx
+├── lib/
+│   ├── knowledge-base.ts   # School info
+│   └── openai.ts          # AI client setup
+├── public/
+├── package.json
+├── next.config.js
+└── .env.local

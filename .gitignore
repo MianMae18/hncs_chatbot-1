@@ -1,0 +1,13 @@
+# hoi bawal dito
+.env
+.env.local
+.env.*.local
+
+node_modules/
+
+.next/
+out/
+build/
+
+.DS_Store
+Thumbs.db
