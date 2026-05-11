@@ -35,15 +35,15 @@ header {
     background: var(--main-color2);
     color: var(--text2);
     align-items: center;
-    gap: 20px;
-    padding: 24px 32px 20px;
-    border-bottom: 20px solid var(--main-color);
+    gap: 16px;
+    padding: 12px 24px; /* Shrunk the thick padding */
+    border-bottom: 4px solid var(--main-color); /* Shrunk the giant 20px border */
 }
 
 #header-icon {
     position: relative;  
-    width: 70px;        
-    height: 70px;
+    width: 50px; /* Shrunk the logo from 70px */      
+    height: 50px;
     flex-shrink: 0;      
 }
 
@@ -51,8 +51,8 @@ header {
     position: absolute;
     top: 0;
     left: 0;
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
     object-fit: contain;
 }
 
@@ -78,22 +78,22 @@ header {
 }
 
 .header-info h1 {
-    font-size: 28px;
+    font-size: 20px; /* Shrunk from 28px */
     font-weight: 700;
     line-height: 1.2;
     letter-spacing: -0.5px;
 }
 
 .header-info h2 {
-    font-size: 20px;
+    font-size: 15px; /* Shrunk from 20px */
     font-weight: 500;
-    margin-top: 8px;
-    margin-bottom: 4px;
+    margin-top: 4px;
+    margin-bottom: 2px;
     line-height: 1.2;
 }
 
 .header-info p {
-    font-size: 18px;
+    font-size: 13px; /* Shrunk from 18px */
     line-height: 1.4;
     font-weight: 400;
 }
