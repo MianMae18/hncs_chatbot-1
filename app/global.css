@@ -357,6 +357,9 @@ header {
     flex-direction: column;
     height: 100vh;
     overflow: hidden;
+    /* Added these two lines below to fix the stretching */
+    max-width: 800px; 
+    margin: 0 auto;   
 }
 
 .message.user .message-content {
