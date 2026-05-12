@@ -37,7 +37,7 @@ header {
     align-items: center;
     gap: 16px;
     padding: 12px 24px; /* Shrunk the thick padding */
-    border-bottom: 4px solid var(--main-color); /* Shrunk the giant 20px border */
+    border-bottom: 15px solid var(--main-color); /* Shrunk the giant 20px border */
 }
 
 #header-icon {
